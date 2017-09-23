@@ -11,7 +11,7 @@ float x;
 int y;
 int ledPin = 9;
 void setup() {
-  pinMode(ledPin, OUTPUT); //LED_BUILTIN = pino 13
+  pinMode(ledPin, OUTPUT); 
   Serial.begin(9600); //inicia o monitor serial
 }
 
