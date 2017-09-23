@@ -37,15 +37,15 @@ void loop() {
           digitalWrite(ledpin,1);
           myBt.println("LED on!"); // vai imprimir no terminal do app
       }
-      if (BluetoothData=='0'){
+      else if (BluetoothData=='0'){
           digitalWrite(ledpin,0);
           myBt.println("LED off!");
       }
-      if (BluetoothData=='3'){
+      else if (BluetoothData=='3'){
           digitalWrite(LED_BUILTIN,1);
           myBt.println("Board LED on!");
       }
-      if (BluetoothData=='4'){
+      else if (BluetoothData=='4'){
           digitalWrite(LED_BUILTIN,0);
           myBt.println("Board LED off!");
       }
