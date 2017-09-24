@@ -1,6 +1,0 @@
-Comprar:
-Resistores: 100, 220, 10k
-Push-button
-Potenciômetro 10k
-LED vermelho ou azul ou verde
-LED RGB anodo comum
